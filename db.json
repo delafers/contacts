@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "Bot1",
+      "password": 12345,
+      "email": "skype@gmail.com"
+    },
+    {
+      "id": 1,
+      "username": "Bot1",
+      "password": 12345,
+      "email": "skype@gmail.com"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 2
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 3
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 4
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 5
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 6
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 7
+    },
+    {
+      "name": "YOU",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 8
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 9
+    },
+    {
+      "name": "AndrewTest",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 10
+    },
+    {
+      "name": "KK",
+      "phone": 8909999999,
+      "email": "virus@mail.ru",
+      "photo": null,
+      "id": 11
+    },
+    {
+      "name": "Uriy",
+      "phone": "88005553535",
+      "email": "ggergt@gmail.com",
+      "id": 12
+    },
+    {
+      "name": "Ort",
+      "phone": "89093294",
+      "email": "adfergtr",
+      "id": 13
+    },
+    {
+      "name": "ewrf",
+      "phone": "ewfwA",
+      "email": "DFGG",
+      "id": 14
+    },
+    {
+      "name": "drgfrtg",
+      "phone": "aergrg",
+      "email": "fff",
+      "id": 15
+    },
+    {
+      "name": "uiguy",
+      "phone": "refaeig",
+      "email": "aegeag",
+      "id": 16
+    },
+    {
+      "name": "jhguy",
+      "phone": "jhgu",
+      "email": "gyu",
+      "photo": null,
+      "id": 17
+    },
+    {
+      "name": "uyg",
+      "phone": "kiuh",
+      "email": "kuh",
+      "photo": {},
+      "id": 18
+    }
+  ]
+}

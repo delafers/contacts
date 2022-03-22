@@ -1,0 +1,66 @@
+.user {
+    background-colorcolor: darkgreen;
+    padding: 10px;
+}
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal button{
+    width: 30vw;
+    min-width: 200px;
+    max-width: 900px;
+    background-color: #6883BC;
+    border: 1px solid #6883BC;
+    color: #8A307F;
+    border-radius: 8px;
+    height: 30px;
+}
+.paginator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    border-bottom: #252e4b solid 4px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form input{
+    width: 200px;
+    background-color: #1e2745;
+    border: 1px solid #6883BC;
+    height: 21px;
+    border-radius: 5px;
+    color: white;
+}
+.form button{
+    width: 80px;
+    margin-left: 5px;
+    color: #8A307F;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #6883BC;
+    background-color: #1e2745;
+}
+.userimg {
+    height: 55px;
+    width: 55px;
+}
+.userbuttonA{
+    color: green;
+    background-color: #241e3b;
+}
+.userbuttonD{
+    color: red;
+    background-color: #241e3b;
+}
+
+.activePage{
+    font-weight: bold;
+}

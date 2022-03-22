@@ -1,0 +1,9 @@
+.main {
+    padding: 20px;
+    grid-area: c;
+    background-color: #6883BC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e2745;
+}

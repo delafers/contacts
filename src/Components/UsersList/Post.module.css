@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1001px){
+    .delete img{
+    position: sticky;
+    width: 40px;
+    height: 40px;
+        float: right;
+        cursor: pointer;
+        margin-top: 20px;
+
+    }}
+@media only screen and (max-width: 1000px){
+    .delete img{
+        position: sticky;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        margin-top: 20px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 690px){
+    .delete img{
+        position: sticky;
+        width: 35px;
+        height: 35px;
+        margin-top: 20px;
+        float: right;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 340px){
+    .delete img{
+        position: sticky;
+        width: 30px;
+        height: 30px;
+        margin-top: 20px;
+        float: right;
+        cursor: pointer;
+    }
+}
+.base button{
+    background-color: #50b5ff;
+    border: #50b5ff solid 1px;
+    color: white;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.changeImg span{
+    padding-right: 30px;
+    color: #8c91b6;
+}
+.postImg img{
+    width: 40%;
+    height: auto;
+    max-height: 240px;
+}
+.Post textarea{
+    width: 90%;
+}
+.text {
+    width: 100%;
+    height: 150px;
+}
+.title {
+    width: 90%;
+    height: 80px;
+}
