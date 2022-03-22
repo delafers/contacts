@@ -11,7 +11,9 @@ For install dependences
 ### `json-server --watch db.json`
 To start local server
 
-
+If you don't want create user and after create contacts for you, just use:
+login: Bot1
+password: 12345
 ### `npm start`
 
 Runs the app in the development mode.\ Confirm start at 3001 port
