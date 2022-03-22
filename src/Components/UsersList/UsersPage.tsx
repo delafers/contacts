@@ -55,7 +55,7 @@ const UsersPageC = () => {
                     <NewPostCreate setActive={setModalActive}/>
                 </ModalCreate>
             </div>
-            <div>
+            <div className={s.users}>
                 {
                     users.map(u => <User key={u.id} user={u} deleteContact={deleteContact}/>)
                 }

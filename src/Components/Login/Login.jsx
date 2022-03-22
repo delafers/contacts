@@ -7,7 +7,6 @@ import {createField, Input} from "../common/FormsControls/FormsControls";
 import {required} from "../../Utils/validators/validator";
 import {AuthApi, UsersApi} from "../../api/api";
 import {getUserAuthData, login} from "../../Redux/auth_reducer";
-import {AppStateType} from "../../Redux/redux-store";
 
 const LoginForm = (props) => {
     return(
@@ -51,11 +50,6 @@ const Login = () => {
     return<div className={s.center}>
         <h1>Авторизация</h1>
         <LoginReduxForm onSubmit={onSubmit}/>
-        <p>
-            <NavLink to="/restore">
-            Восстановить пароль
-            </NavLink>
-        </p>
         <p>
             <NavLink to='/registrate'>Если ты не зарегистрирован, жми сюда</NavLink>
         </p>

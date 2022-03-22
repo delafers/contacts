@@ -4,31 +4,34 @@ import userImg from '../../assets/images/User_Avatar.png'
 import {NavLink} from "react-router-dom";
 
 let User = ({user, deleteContact}) => {
-
     return <div className={s.user}>
-           <div >
                <div>
                 <div>
+                    <div>
                     <img src={user.photo != null ? user.photo : userImg} className={s.userimg}/>
-                    {user.name}
-                    {user.email}
-                    {user.phone}
-                    <span onClick={() => {deleteContact(user.id)}}>
-                    X
-                    </span>
+                        <span>
+                        Имя: {user.name}
+                        </span>
+
+                    </div>
+                    <div>
+                    Почта: {user.email}
+                        <span>
+                    Телефон: {user.phone}
+                        </span>
+                    </div>
+
                 </div>
                 </div>
                 <div>
-                    {user.followed
+                    {!user.followed
                         ? <button className={s.userbuttonD}
-                                  onClick={() => {}}>
-                            Unfollow</button>
+                                  onClick={() => {deleteContact(user.id)}}>
+                            Удалить</button>
                         : <button className={s.userbuttonA}
                                   onClick={() => {}}>
                             Follow</button>}
                 </div>
-            </div>
-
     </div>
 
 }
