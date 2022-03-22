@@ -51,7 +51,7 @@ const Login = () => {
         <h1>Авторизация</h1>
         <LoginReduxForm onSubmit={onSubmit}/>
         <p>
-            <NavLink to='/registrate'>Если ты не зарегистрирован, жми сюда</NavLink>
+            <NavLink to='/auth'>Если ты не зарегистрирован, жми сюда</NavLink>
         </p>
     </div>
 }
