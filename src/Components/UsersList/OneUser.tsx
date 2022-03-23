@@ -11,7 +11,7 @@ type UserType = {
     name: string,
     email:string,
     phone: number,
-    followed: boolean | null,
+    followed?: boolean | null,
     id: number
 }
 let User:React.FC<PropsType> = ({user, deleteContact}) => {

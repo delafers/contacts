@@ -38,7 +38,6 @@ export const login = (username:string, password: string):ThunkTypes => async (di
     let loginData = await AuthApi.login(username, password)
     if (loginData.data != undefined) {
         localStorage.setItem("Uid", loginData.data[0].id)
-        debugger
         dispatch(getUserAuthData())
     }else {
         dispatch(stopSubmit("login", {_error: "message"}))

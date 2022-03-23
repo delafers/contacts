@@ -38,6 +38,7 @@ const UsersPageC = () => {
     }
     const [modalActive, setModalActive] = useState(false)
 
+    // @ts-ignore
     return (
         <div>
             <div>

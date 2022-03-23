@@ -1,5 +1,5 @@
 import {updateObjectInArray} from "../Utils/objectHelper";
-import {PhotosType, ContactType} from "../types/types";
+import {ContactType} from "../types/types";
 import {AppStateType, BaseThunkType, InferActionTypes} from "./redux-store";
 import {Dispatch} from "redux";
 import {ThunkAction} from "redux-thunk";
@@ -15,7 +15,7 @@ let initialState = {
     img: null as File | null,
     followingInProgress: [2, 3] as Array<number>, //id пользователей, на которых нельзя подписатья
     filter:{
-        term: ""
+        term: "" as string | null
     }
 };
 export type InitialStateType = typeof initialState
@@ -90,7 +90,6 @@ export const requestContacts = (page: number, filter:FilterType): ThunkType => {
         dispatch(actions.toggleIsFetching(false))
         // @ts-ignore
         dispatch(actions.setUsers(data.data));
-        //dispatch(actions.setTotalUsersCount(data.totalCount));
 
     }
 }

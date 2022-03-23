@@ -27,13 +27,18 @@ const appReducer = (state = initialState, action: ActionsTypes):InitialStateType
 }
 
 
-export const initializeApp = () => (dispatch: any) => {
+export const initializeApp = () => (dispatch:any) => {
+    //первичная загрузка приложения
     let promise = dispatch(getUserAuthData())
     Promise.all([promise]).then(() => {
         dispatch(actions.initializedSuccess())
-        debugger
-    })
 
+    })
+}
+export const initializeAppWOT = () => (dispatch:any) => {
+    //первичная загрузка приложения
+
+        dispatch(actions.initializedSuccess())
 }
 
 

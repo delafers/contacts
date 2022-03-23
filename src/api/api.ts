@@ -2,8 +2,6 @@ import axios from "axios"
 
 export const usersAPI = {
     all(page = 1, filter = null){
-        debugger
-        // @ts-ignore
         if(!filter){
             return axios.get(`http://localhost:3000/contacts?_page=${page}`)
         }else{
@@ -11,7 +9,7 @@ export const usersAPI = {
         }
     },
     addNew(name:string, phone:number, email:string, photo:string|null){
-        debugger
+        //add post
         return axios.post("http://localhost:3000/contacts",{
             "name": name,
             "phone": phone,
@@ -20,7 +18,7 @@ export const usersAPI = {
         })
     },
     delete(id:number){
-        debugger
+        //delete post by id
         return axios.delete(`http://localhost:3000/contacts/${id}`)
     }
 }

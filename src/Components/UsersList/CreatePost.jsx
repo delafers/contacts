@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import {reduxForm} from "redux-form";
 import {connect} from "react-redux";
 import {createField, Input, Textarea} from "../common/FormsControls/FormsControls";
-//import {addPostToServer, SetPhoto} from "../../Redux/demosNews_reducer";
 import {required} from "../../Utils/validators/validator";
 import s from "./Post.module.css"
 import {addContactToServer, SetPhoto} from "../../Redux/contacts_reducer";
@@ -10,11 +9,11 @@ import {addContactToServer, SetPhoto} from "../../Redux/contacts_reducer";
 
 const NewsForm = (props) => {
     const onMainPhotoSelected = (e) => {
+        //добавлем фото к посту
         if(e.target.files.length){
             props.setPhoto(e.target.files[0])
         }
     }
-    debugger
     return(
         <form onSubmit={props.handleSubmit}>
             <div className={s.Post}>
@@ -40,12 +39,12 @@ const NewsForm = (props) => {
 const CreatePostReduxForm = reduxForm({form: 'createPost'})(NewsForm)
 
 const NewPostCreate = (props) => {
-    debugger
+
     const onSubmit = (formdatas) => {
-        debugger
+
         props.addContactToServer(formdatas.user, formdatas.phone, formdatas.email, props.img )
         props.setActive(false)
-        //props.setPhoto(null)
+        props.SetPhoto(null)
     }
     return<div >
         <h2>Добавление контакта</h2>

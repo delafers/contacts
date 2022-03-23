@@ -3,32 +3,19 @@ export type GalleryType = {
     name: string,
     id: number
 }
-export type ContactsType = {
-    github: string,
-    vk: string,
-    instagram: string,
-    twitter: string,
-    website: string,
-    youtube: string,
-    mainLink: string,
-}
+
 export type ProfileType = {
-    userId: number,
-    lookingForAJob: boolean,
-    lookingForAJobDescription: string,
-    fullName: string,
-    contacts: ContactsType,
-    photos: PhotosType,
-    aboutMe: string
+    id: number,
+    username: string,
+    password: string,
+    email: string,
+
 }
-export type PhotosType = {
-    small: string | null,
-    large: string | null,
-}
+
 export type ContactType = {
     id: number,
     name: string,
-    "phone": string,
+    "phone": number,
     "email": string,
     "photo": string | null
 }

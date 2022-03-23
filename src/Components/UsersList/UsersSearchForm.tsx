@@ -12,7 +12,7 @@ type UsersSearchFormPropsType = {
     onFilterChanged:(filter:FilterType) => void
 }
 type formType ={
-    term:string
+    term:string | null
 }
 const UsersSearchForm:React.FC<UsersSearchFormPropsType> = React.memo((props) => {
     const filter = useSelector((state: AppStateType) => state.contacts.filter  )
