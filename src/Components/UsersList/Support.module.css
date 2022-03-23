@@ -6,6 +6,7 @@
     padding: 10px;
     border-radius: 20px;
     color: #182039;
+    max-height: 100px;
 }
 .user span{
     margin-left: 30px;
@@ -13,7 +14,6 @@
 .users{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: minmax(60px, 150px);
     grid-gap: 20px;
     margin-top: 20px;
     margin-left: 3px;

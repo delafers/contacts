@@ -23,7 +23,6 @@ let User:React.FC<PropsType> = ({user, deleteContact}) => {
                         <span>
                         Имя: {user.name}
                         </span>
-
                     </div>
                     <div>
                     Почта: {user.email}

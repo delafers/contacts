@@ -11,6 +11,12 @@
       "username": "Bot1",
       "password": 12345,
       "email": "skype@gmail.com"
+    },
+    {
+      "username": "TestUser",
+      "email": "dsfdsg",
+      "password": "12345678",
+      "id": 2
     }
   ],
   "contacts": [
@@ -127,6 +133,46 @@
       "email": "kuh",
       "photo": {},
       "id": 18
+    },
+    {
+      "name": "drgfrtg",
+      "phone": "aergrg",
+      "email": "fff",
+      "id": 19
+    },
+    {
+      "name": "uiguy",
+      "phone": "refaeig",
+      "email": "aegeag",
+      "id": 20
+    },
+    {
+      "name": "jhguy",
+      "phone": "jhgu",
+      "email": "gyu",
+      "photo": null,
+      "id": 21
+    },
+    {
+      "name": "uyg",
+      "phone": "kiuh",
+      "email": "kuh",
+      "photo": {},
+      "id": 22
+    },
+    {
+      "name": "jhguy",
+      "phone": "jhgu",
+      "email": "gyu",
+      "photo": null,
+      "id": 23
+    },
+    {
+      "name": "uyg",
+      "phone": "kiuh",
+      "email": "kuh",
+      "photo": {},
+      "id": 24
     }
   ]
 }
