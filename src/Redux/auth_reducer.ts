@@ -29,7 +29,6 @@ export const actions = {
 }
 export const getUserAuthData = ():ThunkTypes => async (dispatch) => {
     await AuthApi.me().then((resp) => {
-        debugger
     let {id, username, email} = resp.data
     dispatch(actions.setAuthUserData(id , username, email,true ))
     })

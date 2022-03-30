@@ -20,7 +20,6 @@ const UsersSearchForm:React.FC<UsersSearchFormPropsType> = React.memo((props) =>
         const filter:FilterType = {
             term: values.term,
         }
-        debugger
         props.onFilterChanged(filter)
         setSubmitting(false)
     }

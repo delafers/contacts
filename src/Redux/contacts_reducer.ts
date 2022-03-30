@@ -86,7 +86,6 @@ export const requestContacts = (page: number, filter:FilterType): ThunkType => {
         dispatch(actions.setFilter(filter))
         // @ts-ignore
         let data = await usersAPI.all(page, filter.term)
-        debugger
         dispatch(actions.toggleIsFetching(false))
         // @ts-ignore
         dispatch(actions.setUsers(data.data));

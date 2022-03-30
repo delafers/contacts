@@ -21,7 +21,6 @@ type AppPropsT = {
 }
 const App:React.FC<AppPropsT> = (props) => {
     useEffect(() => {
-        debugger
         if(localStorage.getItem("Uid")){
             props.initializeApp()
         }else {

@@ -11,7 +11,7 @@ For install dependences
 ### `json-server --watch db.json`
 To start local server
 
-If you don't want create user and after create contacts for you, just use:
+If you don't want to create user and after create contacts for you, just use:
 login: Bot1
 password: 12345
 ### `npm start`
